@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-27",
+  "browser": "Chrome headless / Playwright",
+  "assets": [
+    {
+      "name": "cristal-y-luz",
+      "width": 1600,
+      "height": 1221,
+      "originalBytes": 180300,
+      "webpBytes": 113482
+    },
+    {
+      "name": "sobremesa",
+      "width": 1600,
+      "height": 2400,
+      "originalBytes": 298992,
+      "webpBytes": 157392
+    }
+  ],
+  "layouts": [
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "images": [
+        {
+          "src": "img/cristal-y-luz.webp",
+          "valid": true
+        },
+        {
+          "src": "img/sobremesa.webp",
+          "valid": true
+        }
+      ],
+      "h1": 1,
+      "missingTargets": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "img/cristal-y-luz.webp",
+          "valid": true
+        },
+        {
+          "src": "img/sobremesa.webp",
+          "valid": true
+        }
+      ],
+      "h1": 1,
+      "missingTargets": []
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "img/cristal-y-luz.webp",
+          "valid": true
+        },
+        {
+          "src": "img/sobremesa.webp",
+          "valid": true
+        }
+      ],
+      "h1": 1,
+      "missingTargets": []
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "images": [
+        {
+          "src": "img/cristal-y-luz.webp",
+          "valid": true
+        },
+        {
+          "src": "img/sobremesa.webp",
+          "valid": true
+        }
+      ],
+      "h1": 1,
+      "missingTargets": []
+    }
+  ],
+  "checks": [
+    "Filtros: 6/4/2 platos",
+    "Copia real al portapapeles y alternativa sin API",
+    "Menú móvil: abrir, Escape, foco, enlaces, clic exterior",
+    "Cambio móvil/escritorio",
+    "Scroll a sección y foco de destino",
+    "Teléfonos y enlaces Maps: estructura y dirección",
+    "Desplegables",
+    "Tab inicial y enlace para saltar contenido",
+    "Movimiento reducido",
+    "Contenido y navegación sin JavaScript",
+    "Imágenes decodificadas, fuentes y recursos HTTP sin errores"
+  ],
+  "errors": [],
+  "failures": [],
+  "limits": [
+    "No se realizan llamadas telefónicas ni se comprueba una ruta real de Google Maps.",
+    "No se comprueba la vigencia comercial de la carta ni los horarios.",
+    "Open Graph usa imagen relativa; al publicar conviene establecer dominio y URL absoluta."
+  ]
+}
